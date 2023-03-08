@@ -40,7 +40,7 @@ public class Bank {
 		// dateOpened, double interestRate
 		SavingsAccount acct3 = new SavingsAccount(3, 100, "Denver", "1/28/18", 10.0);
 		bankaccounts.add(acct3);
-//create personal customer
+		// create personal customer
 		// String name, String address, String phone, Account account, String homePhone,
 		// String workPhone)
 		PersonalCustomer rod = new PersonalCustomer("Rod Jones", "1100 My Way", "555-222-4444", acct3, "555-222-4444",
